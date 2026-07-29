@@ -7,7 +7,7 @@ def create_and_shuffle_features():
     print("--- Creating a new, shuffled feature set for dynamic simulation ---")
     
     # Use the path to your raw dataset
-    dataset_path = "C:/Users/sujal/can-dataset"
+    dataset_path = "C:/Users/can-dataset"
     
     if not os.path.exists(dataset_path):
         print(f"Error: Dataset path not found at {dataset_path}")
